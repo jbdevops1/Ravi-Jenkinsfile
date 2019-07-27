@@ -18,16 +18,16 @@
 <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>scp://repo/maven2</url>
+      <id>bcard-app-releases</id>
+      <name>bcard-app-releases</name>
+      <url>http://ec2-13-235-50-82.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/bcard-app-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>propSnap</id>
-      <name>Propellors Snapshots</name>
-      <url>sftp://propellers.net/maven</url>
+      <id>bcard-app-snapshots</id>
+      <name>bcard-app-snapshots</name>
+      <url>http://ec2-13-235-50-82.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/bcard-app-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
