@@ -12,6 +12,7 @@ node('maven-label') {
    
    stage('ref-lib'){
     mymethod 'Intellipath'
+    sh "python a.py" 
    }
   
   stage('Demo') {
