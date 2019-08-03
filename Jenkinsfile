@@ -12,7 +12,7 @@ node('maven-label') {
    
    stage('ref-lib'){
     mymethod 'Intellipath'
-    sh "cd $WORKSPACE && python a.py" 
+    sh "python /home/ubuntu/jenkins/workspace/test_pipeline/a.py" 
    }
   
   stage('Demo') {
