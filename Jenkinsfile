@@ -1,6 +1,14 @@
 
+def mymethod(string abc){
+ echo "Hello, ${name}."  
+}
+
 node('maven-label') {
    def mvnHome
+   
+   stage(){
+    mymethod "Intellipath"  
+   }
    stage('Preparation') { 
       
       git 'https://github.com/cardrandd/bcard-app.git'
