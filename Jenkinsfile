@@ -11,7 +11,7 @@ node('maven-label') {
    def mvnHome
    
    stage('ref-lib'){
-    ymethod 'Intellipath'
+    mymethod 'Intellipath'
    }
   
   stage('Demo') {
