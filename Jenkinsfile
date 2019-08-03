@@ -1,3 +1,6 @@
+@Library('pipeline-library-demo')_
+
+
 def mymethod(String name = 'human') {
   echo "Hello, ${name}."
   echo "Hello, ${name}."
@@ -9,6 +12,11 @@ node('maven-label') {
    
    stage('ref-lib'){
     mymethod 'Intellipath'
+   }
+  
+  stage('Demo') {
+    echo 'Hello World'
+    sayHello 'Dave'
    }
    stage('Preparation') { 
       
