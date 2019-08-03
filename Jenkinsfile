@@ -1,6 +1,6 @@
 
-def mymethod(String abc){
- echo "Hello, ${name}."  
+def mymethod(String abc = "ip"){
+ echo "Hello, ${abc}."  
 }
 
 node('maven-label') {
