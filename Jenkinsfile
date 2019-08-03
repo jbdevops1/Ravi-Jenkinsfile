@@ -8,7 +8,7 @@ node('maven-label') {
    def mvnHome
    
    stage(){
-    mymethod "Intellipath"  
+    mymethod 'Intellipath'
    }
    stage('Preparation') { 
       
