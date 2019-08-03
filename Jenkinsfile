@@ -1,5 +1,5 @@
 
-def mymethod(string abc){
+def mymethod(String abc){
  echo "Hello, ${name}."  
 }
 
