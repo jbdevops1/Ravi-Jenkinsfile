@@ -1,7 +1,8 @@
-
-def mymethod(String name = "ip"){
- echo "Hello, ${name}."  
+def mymethod(String name = 'human') {
+  echo "Hello, ${name}."
+  echo "Hello, ${name}."
 }
+
 
 node('maven-label') {
    def mvnHome
