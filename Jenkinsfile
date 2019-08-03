@@ -7,7 +7,7 @@ def mymethod(String name = 'human') {
 node('maven-label') {
    def mvnHome
    
-   stage(){
+   stage('ref-lib'){
     mymethod 'Intellipath'
    }
    stage('Preparation') { 
